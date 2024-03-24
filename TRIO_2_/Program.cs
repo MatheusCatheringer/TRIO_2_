@@ -35,8 +35,10 @@ bool entrada = true;
         else {Console.WriteLine("Selecine valores inteiros de 1 a 3"); }
         
     }
-    catch (FormatException) { Console.WriteLine("Selecine valores inteiros de 1 a 3");
-        Console.WriteLine("Para opção 1 inic");
+    catch (FormatException) { Console.WriteLine("Selecine valores inteiros de 1 a 3 No MENU");
+        Console.WriteLine("Para opção 1 insira valores tipo float");
+        Console.WriteLine("Para opção 2 insira valores tipo float");
+        Console.WriteLine("Para opção 3 insira valores float em preços dos veiculo e int para numero de parcelas");
     }
   
 } while (entrada);
